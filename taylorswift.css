@@ -1,0 +1,46 @@
+body,html {
+    padding: 0;
+    margin: 0;
+    display: grid;
+    background-color: #FFF8CE;
+}
+
+.menu{
+    height: 50px;
+    background-color:#FFD13B;
+}
+
+.splash_image{
+    height: 500px;
+    background-color: #FFF281;
+    position: relative;
+}
+
+.buy{
+    height: 250px;
+    width: 20%;
+    background-color: #FFE400;
+    margin-top: 10%;
+    margin-left: 70%;
+    position: absolute;
+}
+
+.album{
+    height: 350px;
+    background-color: #F1B81B;
+    position: relative;
+}
+.versions{
+    height:200px;
+    width:80%;
+    margin-left:15%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 100%;
+    grid-gap: 1rem;
+}
+.item{
+    height:200px;
+    background-color: #FFE36E;
+    margin-top:90px;
+}
