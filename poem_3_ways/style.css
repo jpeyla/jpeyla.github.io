@@ -1,0 +1,159 @@
+body{
+    background-color:#495F78;
+    padding:0;
+    margin:0;
+    font-family: "dunbar-text", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+.menu{
+    background-color:#CFD9E0;
+    width:30%;
+    margin-top: 80px;
+}
+
+.title{
+    margin-left:15px;
+    word-spacing:20px;
+    letter-spacing:3px;
+    font-weight:lighter;
+}
+
+.author{
+    margin-top:-1.5em;
+    margin-left:15px;
+    font-weight:lighter;
+    font-size:.75em;
+    letter-spacing:2px;
+}
+
+.statement{
+    margin-top:-1em;
+    margin-left:15px;
+    font-weight:lighter;
+    font-size:.75em;
+    letter-spacing:2px;
+}
+
+.main{
+    margin-left:31%;
+    width:40%;
+    background-color:#CFD9E0;
+    position:relative;
+}
+
+.box{
+    background-color: #CFD9E0;
+}
+.stanza1{
+    margin-left:5%;
+    padding-top:3%;
+    letter-spacing:2px;
+}
+
+.stanza2{
+    margin-left:5%;
+    padding-top:3%;
+    letter-spacing:2px;
+}
+
+.stanza3{
+    margin-left:5%;
+    padding-top:3%;
+    letter-spacing:2px;
+}
+
+.stanza4{
+    margin-left:5%;
+    padding-top:3%;
+    letter-spacing:2px;
+    padding-bottom:3%;
+}
+/*--------------------SMART PHONES------------------*/
+
+@media only screen and (max-width:800px) {
+
+    body{
+        background-image: linear-gradient(#C1DEE9,#050A2B);
+        color:white;
+        line-height:2em;
+        letter-spacing:1px;
+        word-spacing: 3px;
+    }
+    .menu{
+        background-color:#66788D;
+        width:85%;
+    }
+    
+    .title{
+        margin-left:15px;
+        font-weight:lighter;
+    }
+    
+    .author{
+        margin-top:-1.5em;
+
+    }
+    
+    .statement{
+        margin-top:-1em;
+        margin-left:15px;
+        font-weight:lighter;
+        font-size:.75em;
+        letter-spacing:2px;
+    }
+    .main{
+        margin-left:20%;
+        width: 55%;
+    }
+    
+    .box{
+        display:none;
+    }
+    .stanza1{
+        margin-left:5%;
+        padding-top:3%;
+        letter-spacing:2px;
+    }
+    
+    .stanza2{
+        margin-left:5%;
+        padding-top:3%;
+        letter-spacing:2px;
+    }
+    
+    .stanza3{
+        margin-left:5%;
+        padding-top:3%;
+        letter-spacing:2px;
+    }
+    
+    .stanza4{
+        margin-left:5%;
+        padding-top:3%;
+        letter-spacing:2px;
+        padding-bottom:3%;
+    }
+}
+
+/*--------------------TABLETS------------------*/
+
+@media only screen and (min-width:800px) and (max-width: 1280px){
+    body{
+        background-color:#CFD9E0;
+        color:#050A2B;
+    }
+    .menu{
+        margin-top:25%;
+        margin-left:-20%;
+        width:60%;
+        transform-origin: top space left;
+        transform: rotate(90deg);
+    }
+    .main{
+        margin-left:30%;
+        background-color:#E9EEF1;
+    }
+}
