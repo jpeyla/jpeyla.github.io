@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+body, html{
+    background-color: #a06e6f;
+    font-family: 'Quicksand', sans-serif;
+    height: 100%;
+    display: grid;
+
+}
+
+.main{
+    margin: auto;
+    height:50vh;
+    width:50vw;
+
+    background-image: url("/img/fin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.name{
+    color:#ffffd8;
+    font-size:3em;
+    text-align: center;
+
+
+}
