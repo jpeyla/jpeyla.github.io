@@ -8,22 +8,6 @@ body, html{
 
 }
 
-.main{
-    margin: auto;
-    height:50vh;
-    width:50vw;
-
-    background-image: url("/img/fin.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
 .name{
     color:#ffffd8;
     font-size:3em;
