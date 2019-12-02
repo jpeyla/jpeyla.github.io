@@ -5,24 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jordyn Peyla</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="menubar">
         <div class="logo">
-            <a href="https://jordynpeyla.me/design"><img src="/images/logo.png" width=45px></a>
+            <a href="#index"><img src="/images/logo.png" width=45px class="active"></a>
         </div>
-        <div class="links">
-            <a href="https://jordynpeyla.me/design">design</a>
-            <a href="https://jordynpeyla.me/shop">shop</a>
-            <a href="https://jordynpeyla.me/about">about</a>
-            <a href="https://jordynpeyla.me/contact">contact</a>
+        <!-- Navigation links (hidden by default in mobile and tablet)-->
+        <div class="myLinks">
+            <div class="linkgrid">
+                <a class="link1" href="#index">design</a>
+                <a class="link2" href="#shop">shop</a>
+                <a class="link3" href="#about">about</a>
+                <a class="link4" href="#contact">contact</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class=" fa fa-bars"></i>
+            </a>
         </div>
     </div>
     <div class="main">
         <div class="maingrid">
-
+            <div class="project1">
+                <div class="img_container">
+                        <a href="project1.html"><img src="/images/thumb1.png" alt="project 1" class="image"></img></a>
+                    <div class="overlay">
+                        <div class="text">
+                                <span class="firstword">ALICE</span>: illustration & hand lettering</div>
+                    </div>
+                </div>
+            </div>
+            <div class="project2">
+                    <div class="img_container">
+                        <a href="project2.html"><img src="/images/thumb2.png" alt="project 2" class="image"></img></a>
+                        <div class="overlay">
+                            <div class="text">
+                                    <span class="firstword">FLOURISH</span>: UI/UX design</div>
+                        </div>
+                    </div>
+            </div>
+            <div class="project3">
+                    <div class="img_container">
+                        <a href="project3.html"><img src="/images/thumb3.png" alt="project 3" class="image"></img></a>
+                        <div class="overlay">
+                            <div class="text">
+                                    <span class="firstword">HEALTHIHER</span>: UI/UX design</div>
+                        </div>
+                    </div>
+            </div>
+            <div class="project4">
+                    <div class="img_container">
+                        <a href="project4.html"><img src="/images/thumb4.png" alt="project 4" class="image"></img></a>
+                        <div class="overlay">
+                            <div class="text">
+                                <span class="firstword">VERDANT</span>: branding & packaging</div>
+                        </div>
+                    </div>
+            </div>
         </div>
 
-    </div>    
+    </div> 
+    
+    <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                x.style.display = "none";
+                } else {
+                x.style.display = "block";
+                }
+            }
+         </script>
 </body>
 </html>
