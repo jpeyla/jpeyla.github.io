@@ -137,11 +137,10 @@ a:hover{
       font-size: 30px;
   }
 
-  .mainabout{
+  .aboutgrid{
       display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-column-gap: 14px;
-      width: 60%;
+      grid-template-columns: 500px 500px;
+      grid-column-gap: 13px;
       margin-left: 20%;
       margin-top: 5%;
   }
@@ -151,7 +150,11 @@ a:hover{
       grid-column-end: 1;
   }
 
-  .abouttext{
+  .abtphoto{
+    width:500px;
+  }
+
+  .biotext{
       grid-column-start: 2;
       grid-column-end: 2;
   }
@@ -163,53 +166,10 @@ a:hover{
       width: 500px;
   }
 
-  .about1{
-      justify-self: start;
-  }
-
-  .about2{
-      justify-self: start;
-  }
-
 
   /* FOR MOBILE LAYOUT */
   @media only screen and (max-width:800px){
-    /* style the navigation menu */
-    .menubar{
-        overflow: hidden;
-        background-color: #F1F1F1;
-        position: relative;
-    }
-    
-    /* hide the links inside the navigation menu (except for logo) */
-    .menubar #myLinks{
-        display: none;
-    }
-
-    /* style navigation menu links */
-    .links a{
-        color: #29151A;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        display: block;
-    }
-
-    /* style hamburger menu */
-    .menubar a.icon{
-        background: #F1F1F1;
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-
-    /* add a background color on mouse hover */
-    .menubar a:hover{
-        background-color: #F1F1F1;
-        color: black;
-    }
-
+    /* for main page */
     .maingrid{
         display: grid;
         grid-template-columns: 1fr;
@@ -220,8 +180,28 @@ a:hover{
         margin-left:5%;
     }
 
+    /* for about page */
+    .aboutgrid{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-row-gap: 14px;
+        width: 500px;
+        margin-left: 5%;
+    }
 
-  }
+    .photo{
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    .abtphoto{
+        width: 325px;
+    }
+   
+    .biotext{
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
   
   /* FOR TABLET LAYOUT */
   @media only screen and (min-width:800px) and (max-width:1280px){
