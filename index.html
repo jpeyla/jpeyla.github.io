@@ -12,17 +12,13 @@
         <div class="logo">
             <a href="#index"><img src="/images/logo.png" width=45px class="active"></a>
         </div>
-        <!-- Navigation links (hidden by default in mobile and tablet)-->
         <div class="myLinks">
             <div class="linkgrid">
-                <a class="link1" href="#index">design</a>
+                <a class="link1 active" href="#index">design</a>
                 <a class="link2" href="#shop">shop</a>
                 <a class="link3" href="#about">about</a>
                 <a class="link4" href="#contact">contact</a>
             </div>
-            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class=" fa fa-bars"></i>
             </a>
         </div>
     </div>
@@ -68,15 +64,5 @@
 
     </div> 
     
-    <script>
-            function myFunction() {
-                var x = document.getElementById("myLinks");
-                if (x.style.display === "block") {
-                x.style.display = "none";
-                } else {
-                x.style.display = "block";
-                }
-            }
-         </script>
 </body>
 </html>

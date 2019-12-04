@@ -3,6 +3,11 @@ body{
     font-family: 'Nanum Gothic', sans-serif;
 }
 
+.bcopy{
+    color: #29151A;
+    font-size: 16px;
+}
+
 a{
     color:#29151A;;
     text-decoration:none;
@@ -14,7 +19,7 @@ a:hover{
     font-weight: bold;
 }
 
-a:active{
+.active{
     color:#EA547C;
     text-decoration:none;
 }
@@ -22,8 +27,8 @@ a:active{
 .menubar{
     display:grid;
     grid-template-columns: 1fr 1fr;
-    margin-top:15px;
-    margin-left: 5px;
+    margin-top:25px;
+    margin-left: 15px;
 }
 
 .logo{
@@ -32,7 +37,7 @@ a:active{
 
 }
 
-.links{
+.myLinks{
     grid-column-start:2;
     grid-column-end: 2;
     justify-self:end;
@@ -117,7 +122,7 @@ a:active{
 
 .text {
     color: #EA547C;
-    font-size: 20px;
+    font-size: 30px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -130,6 +135,40 @@ a:active{
   .firstword{
       font-weight: bold;
       font-size: 30px;
+  }
+
+  .mainabout{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 14px;
+      width: 60%;
+      margin-left: 20%;
+      margin-top: 5%;
+  }
+
+  .photo{
+      grid-column-start: 1;
+      grid-column-end: 1;
+  }
+
+  .abouttext{
+      grid-column-start: 2;
+      grid-column-end: 2;
+  }
+
+
+  .line{ 
+      background-color: #EA547C;
+      height: 2px;
+      width: 500px;
+  }
+
+  .about1{
+      justify-self: start;
+  }
+
+  .about2{
+      justify-self: start;
   }
 
 
