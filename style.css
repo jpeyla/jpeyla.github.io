@@ -8,6 +8,16 @@ body{
     font-size: 16px;
 }
 
+h2{
+    color: #EA547C;
+    font-style;
+}
+
+h3{
+    color: darkgray;
+    font-size: 18px;
+}
+
 a{
     color:#29151A;;
     text-decoration:none;
@@ -165,6 +175,59 @@ a:hover{
       width: 500px;
   }
 
+  .header{
+      margin-left:25%;
+  }
+  
+.projectgrid{
+    display: grid;
+    width: 50%;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 14px;
+    grid-template-rows: 1fr 10% 30% 30%;
+    grid-row-gap: 10px;
+    margin-left: 25%;
+
+}
+
+.hero{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    max-width: 800px;
+}
+
+.desc{
+    font-size: 14px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    align-self: center;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+
+.pic1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    min-width: 100px;
+    max-width: 390px;
+    justify-self: start;
+}
+
+.pic2{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    min-width: 100px;
+    max-width: 390px;
+    justify-self: end;
+}
+
 
   /* FOR MOBILE LAYOUT */
   @media only screen and (max-width:800px){
@@ -202,6 +265,7 @@ a:hover{
     .socials{
         margin-left: 30%;
     }
+    
 
   }
   /* FOR TABLET LAYOUT */
