@@ -189,7 +189,8 @@ a:hover{
   }
 
   .header{
-      margin-left:21%;
+      margin:auto;
+      width: 50%;
       padding-top: 80px;
   }
   
@@ -200,7 +201,7 @@ a:hover{
     grid-column-gap: 14px;
     grid-template-rows: 1fr 5% 25% 30%;
     grid-row-gap: 8px;
-    margin-left: 21%;
+    margin: auto;
     padding-bottom: 20px;
 
 }
@@ -304,6 +305,86 @@ a:hover{
     .socials{
         margin: auto;
     }
+
+    /*for project pages*/
+    .header{
+        width: 60%;
+        margin: auto;
+    }
+    
+    .projectgrid{
+        display: grid;
+        width: 60%;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 14px;
+        grid-template-rows: 1fr 20% 25% 30%;
+        grid-row-gap: 8px;
+        margin: auto;
+        padding-bottom: 20px;
+    
+    }
+    
+    .hero{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        max-width: 350px;
+    }
+    
+    .desc{
+        font-size: 14px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        align-self: center;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    
+    
+    .pic1{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        min-width: 100px;
+        max-width: 170px;
+        justify-self: start;
+    }
+    
+    .pic2{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        min-width: 100px;
+        max-width: 170px;
+        justify-self: end;
+    }
+    
+    .pic3{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 4;
+        min-width: 100px;
+        max-width: 245px;
+        justify-self: start;
+    }
+    
+    .pic4{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 4;
+        min-width: 100px;
+        max-width: 245px;
+        justify-self: end;
+    }
+
+  }
     
 
   }
@@ -344,6 +425,82 @@ a:hover{
   
     .socials{
         margin-left: 40%;
+    }
+
+    /*for project pages*/
+    .header{
+        width: 50%;
+        margin: auto;
+    }
+    
+    .projectgrid{
+        display: grid;
+        width: 50%;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 14px;
+        grid-template-rows: 1fr 15% 25% 30%;
+        grid-row-gap: 8px;
+        margin: auto;
+        padding-bottom: 20px;
+    
+    }
+    
+    .hero{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        max-width: 500px;
+    }
+    
+    .desc{
+        font-size: 14px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        align-self: center;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    
+    
+    .pic1{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        min-width: 100px;
+        max-width: 245px;
+        justify-self: start;
+    }
+    
+    .pic2{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        min-width: 100px;
+        max-width: 245px;
+        justify-self: end;
+    }
+    
+    .pic3{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 4;
+        min-width: 100px;
+        max-width: 245px;
+        justify-self: start;
+    }
+    
+    .pic4{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 4;
+        min-width: 100px;
+        max-width: 245px;
+        justify-self: end;
     }
 
   }
