@@ -370,7 +370,7 @@ a:hover{
         grid-row-start: 4;
         grid-row-end: 4;
         min-width: 100px;
-        max-width: 245px;
+        max-width: 170px;
         justify-self: start;
     }
     
@@ -380,7 +380,7 @@ a:hover{
         grid-row-start: 4;
         grid-row-end: 4;
         min-width: 100px;
-        max-width: 245px;
+        max-width: 170px;
         justify-self: end;
     }
 
